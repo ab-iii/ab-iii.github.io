@@ -1,0 +1,47 @@
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.controls button,
+.controls select {
+  margin-right: 8px;
+  padding: 6px;
+}
+
+.product {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.product:hover {
+  background: #f5f5f5;
+}
+
+.product img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.price {
+  font-weight: bold;
+}
+
+#sentinel {
+  height: 40px;
+}

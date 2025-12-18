@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Maozi Night Hat",
+    "price": 60,
+    "currency": "EUR",
+    "category": "Clothing",
+    "image": "https://jhtlove.com/cdn/shop/files/maozi-hat.jpg",
+    "link": "https://jhtlove.com/products/maozi-night-hat"
+  },
+  {
+    "id": 2,
+    "name": "Tutto, tutto, tutto… o quasi",
+    "price": 36.10,
+    "currency": "EUR",
+    "category": "Book",
+    "image": "https://www.quodlibet.it/media/catalog/product/book-cover.jpg",
+    "link": "https://www.quodlibet.it/libro/9788822908087"
+  },
+  {
+    "id": 3,
+    "name": "Onyx Boox Go 10.3",
+    "price": 329,
+    "currency": "CHF",
+    "category": "E-reader",
+    "image": "https://static.fnac-static.com/multimedia/Images/FR/NR/72/46/15/21524672/1540-1.jpg",
+    "link": "https://www.fr.fnac.ch/ONYX-BOOX-GO-10-3-4GB-64GB-WHITE/a21524672"
+  }
+]
