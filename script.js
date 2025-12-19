@@ -38,6 +38,11 @@ function render(list) {
   list.forEach(p => {
     const div = document.createElement("div");
     div.className = "product";
+
+     if (p.bought) {
+      div.classList.add("bought");
+    }
+    
     div.onclick = () => window.open(p.link, "_blank");
 
     div.innerHTML = `
@@ -97,6 +102,7 @@ function resetList() {
   document.getElementById("product-list").innerHTML = "";
   loadMore();
 }
+
 
 
 
