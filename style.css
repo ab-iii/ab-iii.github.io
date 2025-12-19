@@ -1,7 +1,7 @@
 body {
   font-family: system-ui, sans-serif;
   max-width: 900px;
-  margin: 40px auto;
+  margin: 0;
 }
 
 .controls {
@@ -16,9 +16,6 @@ body {
 
 .product {
   display: flex;
-  gap: 0px;
-  padding: 0px;
-  border-bottom: 1px solid #ddd;
   cursor: pointer;
 }
 
@@ -27,8 +24,7 @@ body {
 }
 
 .product img {
-  width: 80px;
-  height: 80px;
+  height: 100%;
   object-fit: cover;
   flex-shrink: 0;
 }
@@ -45,4 +41,5 @@ body {
 #sentinel {
   height: 40px;
 }
+
 
