@@ -49,12 +49,13 @@ function render(list) {
            alt="${p.name}"
            loading="lazy"
            onerror="this.src='https://via.placeholder.com/80'" />
+    <div>
       <div class="product-info">
         <strong>${p.name}</strong>
         <span class="price">${p.currency} ${p.price}</span>
         <span>${p.category}</span>
       </div>
-    <div>
+    
     `;
 
     container.appendChild(div);
@@ -96,4 +97,5 @@ function resetList() {
   document.getElementById("product-list").innerHTML = "";
   loadMore();
 }
+
 
