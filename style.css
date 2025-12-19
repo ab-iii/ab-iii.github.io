@@ -61,6 +61,7 @@ body {
 
 
 .image-wrapper {
+  border: 1px solid lightgray;
   position: relative;
   height: var(--image-size);
   width: var(--image-size);
@@ -104,6 +105,7 @@ body {
 #sentinel {
   height: 40px;
 }
+
 
 
 
