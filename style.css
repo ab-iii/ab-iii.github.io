@@ -22,6 +22,7 @@ body {
 }
 
 .product {
+  position: relative;
   display: flex;
   cursor: pointer;
 }
@@ -33,6 +34,24 @@ body {
 .product.bought .product-info {
   text-decoration: line-through;
   opacity: 0.6;
+}
+
+.product:not(:last-child)::after {
+  content: "";
+  position: absolute;
+
+  /* horizontal alignment: center of image */
+  left: calc(var(--image-size, 100px) / 2);
+
+  /* vertical placement: just below this item */
+  bottom: -10px;
+
+  width: 30px;
+  height: 30px;
+  background: #eee;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
 }
 
 
@@ -50,18 +69,6 @@ body {
   height: 100%;
   object-fit: cover;
   display: block;
-}
-
-.image-wrapper::after {
-  content: "";
-  position: absolute;
-  bottom: -50%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 20%;
-  height: 20%;
-  background: lightgray;
-  border-radius: 50%;
 }
 
 .overlay-icon circle {
@@ -92,6 +99,7 @@ body {
 #sentinel {
   height: 40px;
 }
+
 
 
 
