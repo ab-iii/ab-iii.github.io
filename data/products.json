@@ -6,7 +6,9 @@
     "currency": "EUR",
     "category": "Clothing",
     "image": "https://jhtlove.com/cdn/shop/files/CD0708D0-23DB-4C3A-885C-86A6E98EB33A_600x.jpg",
-    "link": "https://jhtlove.com/products/maozi-night-hat"
+    "link": "https://jhtlove.com/products/maozi-night-hat",
+    "giftable": true,
+    "bought": false
   },
   {
     "id": 2,
@@ -15,7 +17,9 @@
     "currency": "EUR",
     "category": "Book",
     "image": "https://edicola518.com/wp-content/uploads/2022/07/IMG_1581-Edit-scaled.jpg",
-    "link": "https://www.quodlibet.it/libro/9788822908087"
+    "link": "https://www.quodlibet.it/libro/9788822908087",
+    "giftable": true,
+    "bought": false
   },
   {
     "id": 3,
@@ -24,7 +28,10 @@
     "currency": "CHF",
     "category": "E-reader",
     "image": "https://static1.anpoimages.com/wordpress/wp-content/uploads/2024/07/onyxbooxgo.jpg",
-    "link": "https://www.fr.fnac.ch/ONYX-BOOX-GO-10-3-4GB-64GB-WHITE/a21524672"
+    "link": "https://www.fr.fnac.ch/ONYX-BOOX-GO-10-3-4GB-64GB-WHITE/a21524672",
+    "giftable": true,
+    "bought": true
   }
 ]
+
 
