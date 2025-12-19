@@ -16,8 +16,8 @@ body {
 
 .product {
   display: flex;
-  gap: 16px;
-  padding: 16px;
+  gap: 0px;
+  padding: 0px;
   border-bottom: 1px solid #ddd;
   cursor: pointer;
 }
@@ -45,3 +45,4 @@ body {
 #sentinel {
   height: 40px;
 }
+
