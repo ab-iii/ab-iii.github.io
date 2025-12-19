@@ -30,6 +30,12 @@ body {
   opacity: 1;
 }
 
+.product.bought .product-info {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+
 .image-wrapper {
   position: relative;
   height: 150px;
@@ -75,6 +81,7 @@ body {
 #sentinel {
   height: 40px;
 }
+
 
 
 
