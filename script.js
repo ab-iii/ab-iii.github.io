@@ -41,6 +41,10 @@ function render(list) {
     div.onclick = () => window.open(p.link, "_blank");
 
     div.innerHTML = `
+    <div class="image-wrapper">
+      <svg class="overlay-icon">
+      <circle>
+      </svg>
       <img src="${p.image}"
            alt="${p.name}"
            loading="lazy"
@@ -50,6 +54,7 @@ function render(list) {
         <span class="price">${p.currency} ${p.price}</span>
         <span>${p.category}</span>
       </div>
+    <div>
     `;
 
     container.appendChild(div);
@@ -91,3 +96,4 @@ function resetList() {
   document.getElementById("product-list").innerHTML = "";
   loadMore();
 }
+
