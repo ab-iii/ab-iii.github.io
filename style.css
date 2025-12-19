@@ -47,8 +47,10 @@ body {
 }
 
 
-circle {
+,overlay-icon circle {
   r: 50px;
+  cx: 75;
+  cy: 75;
   fill: whithe;
 }
 
@@ -72,6 +74,7 @@ circle {
 #sentinel {
   height: 40px;
 }
+
 
 
 
