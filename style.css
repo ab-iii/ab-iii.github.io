@@ -26,7 +26,7 @@ body {
   cursor: pointer;
 }
 
-.product:hover + .overlay-icon {
+.product:hover + div.overlay-icon {
   opacity: 100;
 }
 
@@ -75,6 +75,7 @@ body {
 #sentinel {
   height: 40px;
 }
+
 
 
 
