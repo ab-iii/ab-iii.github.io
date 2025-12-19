@@ -52,6 +52,17 @@ body {
   display: block;
 }
 
+.image-wrapper::after {
+  content: "";
+  position: absolute;
+  bottom: -18%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120%;
+  height: 60%;
+  background: #eee;
+  border-radius: 50%;
+}
 
 .overlay-icon circle {
   r: 50;
@@ -81,6 +92,7 @@ body {
 #sentinel {
   height: 40px;
 }
+
 
 
 
