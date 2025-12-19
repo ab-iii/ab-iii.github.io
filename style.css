@@ -4,6 +4,13 @@ body {
   margin: 0;
 }
 
+.controls-wrapper {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 10;
+}
+
 .controls {
   margin-bottom: 20px;
 }
@@ -42,6 +49,7 @@ body {
 #sentinel {
   height: 40px;
 }
+
 
 
 
