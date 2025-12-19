@@ -33,7 +33,7 @@ body {
 }
 
 .product:hover .overlay-icon {
-  opacity: 0.92;
+  visibility: visible;
 }
 
 .product.bought .product-info {
@@ -85,7 +85,8 @@ body {
 }
 
 .overlay-icon {
-  opacity: 0;
+  opacity: 0.92;
+  visibility: hidden;
   position: absolute;
   inset: 0;
   width: 100%;
@@ -105,6 +106,7 @@ body {
 #sentinel {
   height: 40px;
 }
+
 
 
 
