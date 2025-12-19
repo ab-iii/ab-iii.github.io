@@ -49,7 +49,7 @@ body {
   left: calc(var(--image-size) / 2);
 
   /* vertical placement: just below this item */
-  bottom: -1em;
+  bottom: -2em;
 
   width: 2em;
   height: 2em;
@@ -104,6 +104,7 @@ body {
 #sentinel {
   height: 40px;
 }
+
 
 
 
