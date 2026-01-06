@@ -20,6 +20,10 @@ fetch("data/products.json")
   .then(res => res.json())
   .then(data => {
     allProducts = data;
+    const toggleBought = document.getElementById("toggle-bought");
+    if (toggleBought) {
+    toggleBought.checked = false;   // ✅ force default
+    }
     initCategoryFilter();
     setupControls();  
     applyFilters();          // initial render (bought hidden)
@@ -174,4 +178,5 @@ function setupInfiniteScroll() {
 
   observer.observe(sentinel);
 }
+
 
