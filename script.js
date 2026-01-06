@@ -21,6 +21,7 @@ fetch("data/products.json")
   .then(data => {
     allProducts = data;
     initCategoryFilter();
+    setupControls();  
     applyFilters();          // initial render (bought hidden)
     setupInfiniteScroll();
   });
@@ -174,8 +175,3 @@ function setupInfiniteScroll() {
   observer.observe(sentinel);
 }
 
-// ==============================
-// Bootstrap controls AFTER DOM exists
-// ==============================
-
-document.addEventListener("DOMContentLoaded", setupControls);
