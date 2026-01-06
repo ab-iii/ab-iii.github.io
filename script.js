@@ -48,7 +48,7 @@ function render(list) {
     div.innerHTML = `
     <div class="image-wrapper">
       <svg class="overlay-icon">
-      <circle>
+      <circle cx="75" cy="75" r="50" />
       </svg>
       <img src="${p.image}"
            alt="${p.name}"
@@ -102,6 +102,7 @@ function resetList() {
   document.getElementById("product-list").innerHTML = "";
   loadMore();
 }
+
 
 
 
